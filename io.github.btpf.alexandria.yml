@@ -3,7 +3,7 @@ id: io.github.btpf.alexandria
 command: "alexandria"
 rename-icon: "alexandria"
 runtime: org.gnome.Platform
-runtime-version: '44'
+runtime-version: '45'
 sdk: org.gnome.Sdk
 sdk-extensions:
 - org.freedesktop.Sdk.Extension.rust-stable
@@ -40,7 +40,6 @@ modules:
       - -DENABLE_GAMEPAD=OFF
       - -DUSE_SOUP2=ON # This will build webkit2gtk against libsoup 2 which is required with tauri v1
       - -DENABLE_BUBBLEWRAP_SANDBOX=OFF
-      - -DUSE_JPEGXL=OFF # Needed until gnome runtime 45.
     modules:
       - shared-modules/libsoup/libsoup-2.4.json
       - name: unifdef # Dependency Of Webkit
