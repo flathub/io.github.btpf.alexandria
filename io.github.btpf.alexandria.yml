@@ -3,11 +3,11 @@ id: io.github.btpf.alexandria
 command: "alexandria"
 rename-icon: "alexandria"
 runtime: org.gnome.Platform
-runtime-version: '44'
+runtime-version: '45'
 sdk: org.gnome.Sdk
 sdk-extensions:
 - org.freedesktop.Sdk.Extension.rust-stable
-- org.freedesktop.Sdk.Extension.node16
+- org.freedesktop.Sdk.Extension.node18
 separate-locales: false
 finish-args:
 - "--socket=wayland"
@@ -40,7 +40,6 @@ modules:
       - -DENABLE_GAMEPAD=OFF
       - -DUSE_SOUP2=ON # This will build webkit2gtk against libsoup 2 which is required with tauri v1
       - -DENABLE_BUBBLEWRAP_SANDBOX=OFF
-      - -DUSE_JPEGXL=OFF # Needed until gnome runtime 45.
     modules:
       - shared-modules/libsoup/libsoup-2.4.json
       - name: unifdef # Dependency Of Webkit
@@ -57,10 +56,10 @@ modules:
   - name: alexandria
     buildsystem: simple
     build-options:
-      append-path: /usr/lib/sdk/node16/bin:/usr/lib/sdk/rust-stable/bin
+      append-path: /usr/lib/sdk/node18/bin:/usr/lib/sdk/rust-stable/bin
       env:
         CARGO_HOME: "/run/build/alexandria/cargo"
-        npm_config_nodedir: /usr/lib/sdk/node16
+        npm_config_nodedir: /usr/lib/sdk/node18
         npm_config_offline: 'true'
     build-commands:
     # Builds libmobi-rs dependency. Will attempt to run unit test which will fail in flatpak environment
