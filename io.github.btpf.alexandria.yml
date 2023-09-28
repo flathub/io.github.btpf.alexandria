@@ -7,7 +7,7 @@ runtime-version: '45'
 sdk: org.gnome.Sdk
 sdk-extensions:
 - org.freedesktop.Sdk.Extension.rust-stable
-- org.freedesktop.Sdk.Extension.node16
+- org.freedesktop.Sdk.Extension.node18
 separate-locales: false
 finish-args:
 - "--socket=wayland"
