@@ -85,4 +85,4 @@ modules:
     # flatpak-node-generator.py npm package-lock.json
     - generated-node-sources.json
     # flatpak-cargo-generator.py src-tauri/Cargo.lock
-    - generated-rust-sources.json
+    - generated-cargo-sources.json
