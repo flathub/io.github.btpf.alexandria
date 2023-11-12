@@ -58,13 +58,13 @@
         <description>
           <ul>
             <li>Full Screen Mode</li>
-            <li>Progress Display & Estimated Reading Time</li>
+            <li>Progress Display &amp; Estimated Reading Time</li>
             <li>Footnotes Preview Pane</li>
-            <li>Text Alignment & Paragraph Spacing Customization</li>
+            <li>Text Alignment &amp; Paragraph Spacing Customization</li>
             <li>Support For System Fonts</li>
             <li>Launch Parameters (For settings as default application)</li>
             <li>Bookmark Hotkey CTRL + B</li>
-            <li>Numerous other UI/UX & Bug Fixes</li>
+            <li>Numerous other UI/UX &amp; Bug Fixes</li>
           </ul>
         </description>
       </release>
