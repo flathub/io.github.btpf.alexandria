@@ -53,6 +53,22 @@
   </screenshots>
 
   <releases>
+  
+      <release version="0.11.0" date="2023-11-11" urgency="low">
+        <description>
+          <ul>
+            <li>Full Screen Mode</li>
+            <li>Progress Display &amp; Estimated Reading Time</li>
+            <li>Footnotes Preview Pane</li>
+            <li>Text Alignment &amp; Paragraph Spacing Customization</li>
+            <li>Support For System Fonts</li>
+            <li>Launch Parameters (For settings as default application)</li>
+            <li>Bookmark Hotkey CTRL + B</li>
+            <li>Numerous other UI/UX &amp; Bug Fixes</li>
+          </ul>
+        </description>
+      </release>
+
       <release version="0.10.0" date="2022-12-02"/>
   </releases>
   <content_rating type="oars-1.1"/>

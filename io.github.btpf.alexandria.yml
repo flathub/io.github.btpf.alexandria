@@ -79,10 +79,10 @@ modules:
     sources:
     - type: git
       url: https://github.com/btpf/Alexandria.git
-      commit: 66ae87e70859ca08cb7aca6d56b0b3ef702d858f
+      commit: 3e9510fb3dd356c1a16579df7b176fcb7485642d
     - type: file
       path: io.github.btpf.alexandria.metainfo.xml
     # flatpak-node-generator.py npm package-lock.json
     - generated-node-sources.json
     # flatpak-cargo-generator.py src-tauri/Cargo.lock
-    - generated-rust-sources.json
+    - generated-cargo-sources.json
