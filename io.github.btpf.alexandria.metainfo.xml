@@ -53,6 +53,13 @@
   </screenshots>
 
   <releases>
+      <release version="0.11.2" date="2023-11-22" urgency="low">
+        <description>
+          <ul>
+            <li>Improved Local Font Support</li>
+          </ul>
+        </description>
+      </release>
       <release version="0.11.1" date="2023-11-14" urgency="low">
         <description>
           <ul>
