@@ -63,7 +63,7 @@ modules:
         npm_config_offline: 'true'
     build-commands:
     # Builds libmobi-rs dependency. Will attempt to run unit test which will fail in flatpak environment
-    - cd ./libmobi-rs && sh build.sh
+    - cd ./libmobi-rs && sh build-linux.sh
     # Fetch packages
     - npm ci --offline --cache=$FLATPAK_BUILDER_BUILDDIR/flatpak-node/npm-cache
     - cargo --offline fetch --manifest-path src-tauri/Cargo.toml
@@ -79,7 +79,7 @@ modules:
     sources:
     - type: git
       url: https://github.com/btpf/Alexandria.git
-      commit: 3fd84ebfe2171013a3792f8d5237e8278d5deaf8
+      commit: 9a395ffe86086edf97f90711149b5169e9ad7524
     - type: file
       path: io.github.btpf.alexandria.metainfo.xml
     # flatpak-node-generator.py npm package-lock.json

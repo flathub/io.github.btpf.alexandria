@@ -53,6 +53,26 @@
   </screenshots>
 
   <releases>
+      <release version="0.12" date="2024-02-08" urgency="low">
+        <description>
+          <ul>
+            <li>Aggressive Theme Overriding</li>
+            <li>Bugfix: Incorrect Highlight Positions When Using Fonts</li>
+            <li>BugFix: Highlights Now Consider Line Height</li>
+            <li>Bugfix: Arrow Keys Flipping Pages In NodeModal</li>
+            <li>BugFix: Footnode Sidebar Not Selectable</li>
+            <li>BugFix: Broken Text Retrieval </li>
+            <li>Sidebar UI Consistency</li>
+          </ul>
+        </description>
+      </release>
+      <release version="0.11.2-1" date="2023-11-22" urgency="low">
+        <description>
+          <ul>
+            <li>Corrected Commit ID</li>
+          </ul>
+        </description>
+      </release>
       <release version="0.11.2" date="2023-11-22" urgency="low">
         <description>
           <ul>
