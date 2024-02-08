@@ -53,7 +53,7 @@
   </screenshots>
 
   <releases>
-      <release version="0.12" date="2024-02-08" urgency="low">
+      <release version="0.12.0" date="2024-02-08" urgency="low">
         <description>
           <ul>
             <li>Aggressive Theme Overriding</li>
