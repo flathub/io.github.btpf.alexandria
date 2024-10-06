@@ -53,6 +53,19 @@
   </screenshots>
 
   <releases>
+        <release version="0.13.1" date="2024-10-06" urgency="low">
+        <description>
+          <ul>
+            <li>Initial Touchscreen Support</li>
+            <li>Security Vulnerability Fix</li>
+            <li>Line Height Is Unitless &amp; defaults to being unset</li>
+            <li>BugFix: Fixed Book Covers Not Rendering With Correct Size</li>
+            <li>BugFix: Setting Color Theme In SettingsBar Now Saves</li>
+            <li>BugFix: Delay Loading of 'percentageFromCfi' until 'displayCFI' is ready</li>
+            <li>BugFix: Generated Covers Not Loading On Import</li>
+          </ul>
+        </description>
+      </release>
       <release version="0.12.0" date="2024-02-08" urgency="low">
         <description>
           <ul>
