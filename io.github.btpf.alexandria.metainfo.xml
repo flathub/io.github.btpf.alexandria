@@ -53,7 +53,7 @@
   </screenshots>
 
   <releases>
-        <release version="0.13.1" date="2024-10-06" urgency="low">
+      <release version="0.13.1" date="2024-10-06" urgency="low">
         <description>
           <ul>
             <li>Initial Touchscreen Support</li>
