@@ -79,7 +79,7 @@ modules:
     sources:
     - type: git
       url: https://github.com/btpf/Alexandria.git
-      commit: 9a395ffe86086edf97f90711149b5169e9ad7524
+      commit: adb97de22e251c97e9a943c0a5d7a1fa8b54bff4
     - type: file
       path: io.github.btpf.alexandria.metainfo.xml
     # flatpak-node-generator.py npm package-lock.json
