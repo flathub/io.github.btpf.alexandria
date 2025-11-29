@@ -53,6 +53,15 @@
   </screenshots>
 
   <releases>
+      <release version="0.13.2" date="2025-11-29" urgency="low">
+        <description>
+          <ul>
+            <li>Added Ctrl+C Functionality</li>
+            <li>Added Page Up, Page Down, &amp; Space Page Flipping</li>
+            <li>Fix Annotation Drawing</li>
+          </ul>
+        </description>
+      </release>
       <release version="0.13.1" date="2024-10-06" urgency="low">
         <description>
           <ul>
