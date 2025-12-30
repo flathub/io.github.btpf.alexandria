@@ -8,6 +8,7 @@ sdk: org.gnome.Sdk
 sdk-extensions:
 - org.freedesktop.Sdk.Extension.rust-stable
 - org.freedesktop.Sdk.Extension.node18
+- org.freedesktop.Sdk.Extension.llvm18
 separate-locales: false
 finish-args:
 - "--socket=wayland"
@@ -56,7 +57,7 @@ modules:
   - name: alexandria
     buildsystem: simple
     build-options:
-      append-path: /usr/lib/sdk/node18/bin:/usr/lib/sdk/rust-stable/bin
+      append-path: /usr/lib/sdk/node18/bin:/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm18/bin
       env:
         CARGO_HOME: "/run/build/alexandria/cargo"
         npm_config_nodedir: /usr/lib/sdk/node18
@@ -79,7 +80,7 @@ modules:
     sources:
     - type: git
       url: https://github.com/btpf/Alexandria.git
-      commit: adb97de22e251c97e9a943c0a5d7a1fa8b54bff4
+      commit: 2665811bc6a6fd8c0c79e1bf72e2c58957c8163b
     - type: file
       path: io.github.btpf.alexandria.metainfo.xml
     # flatpak-node-generator.py npm package-lock.json
